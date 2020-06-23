@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Le resultat est de
+        <span class= "resultat"></span>
+    </h1>
+
+    <script>
+        console.log("bonjour");
+        var a = prompt("entrer la valeur de a");
+        var b = prompt("entrer la valeur de b");
+        console.log(a+b);
+        document.querySelector(".resultat").innerHTML = parseInt(a) + parseInt(b);
+        
+    </script>
+</body>
+</html>
